@@ -77,7 +77,7 @@ const Contact = ()=>{
                                 {
                                     status.message &&
                                     <Col>
-                                        <p className={status.sucess===false?"danger":"warning"}>{status.message}</p>
+                                        <p className={status.sucess===false?"danger":"success"}>{status.message}</p>
                                     </Col>
                                 }
                             </Row>
