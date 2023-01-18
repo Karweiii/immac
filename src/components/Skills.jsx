@@ -1,7 +1,11 @@
 import { Container,Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import sliderimg01 from "../assets/img/slider01.svg"
+import sliderimg01 from "../assets/img/slider01t.svg"
+import sliderimg02 from "../assets/img/slider02.svg"
+import sliderimg03 from "../assets/img/slider03.svg"
+import sliderimg04 from "../assets/img/slider04.svg"
+import sliderimg05 from "../assets/img/slider05.svg"
 import colorsharp from "../assets/img/Moonlit Asteroid.jpg"
 const Skills=()=>{
     const responsive = {
@@ -40,22 +44,22 @@ const Skills=()=>{
                                 </div>
 
                                 <div className="item">
-                                    <img src={sliderimg01} alt='Image'/>
+                                    <img src={sliderimg02} alt='Image'/>
                                     <h5>Post Production</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={sliderimg01} alt='Image'/>
+                                    <img src={sliderimg03} alt='Image'/>
                                     <h5>Online Branding</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={sliderimg01} alt='Image'/>
+                                    <img src={sliderimg04} alt='Image'/>
                                     <h5>Photography</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={sliderimg01} alt='Image'/>
+                                    <img src={sliderimg05} alt='Image'/>
                                     <h5>Graphic Design</h5>
                                 </div>
                             </Carousel>
